@@ -80,3 +80,4 @@ This will be a "one-to-many" relationship because one character will have many s
 You can set an existing column as a foreign key like this: ALTER TABLE table_name ADD FOREIGN KEY(column_name) REFERENCES referenced_table(referenced_column);
 create a primary key from two columns, known as a composite primary key.ALTER TABLE table_name ADD PRIMARY KEY(column1, column2);
 Enter a join command to see all the info from both tables. SELECT columns FROM table_1 FULL JOIN table_2 ON table_1.primary_key_column = table_2.foreign_key_column;
+.
